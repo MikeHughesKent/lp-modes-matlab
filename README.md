@@ -6,6 +6,8 @@ m.r.hughes@kent.ac.uk
 
 http://research.kent.ac.uk/applied-optics/hughes
 
+A Python port of this code, with some additional feature and a GUI is now available at [https://github.com/MikeHughesKent/lpmodes].
+
 ## Description
 This library solves the eigenvalue equation for a step-index fibre under the weakly-guided, linear polarisation approximation, generating propagation constants and other parameters, including power in core, for each of the supported LP modes. (The solution is only valid for small fibre numerical apertures with step index profiles.) Mode amplitudes and intensities can be plotted, and arbitrary input fields can be coupled into the fibre, allowing the coupling efficiency and power in each mode to be calculated. The fields can be propagated along an arbitrary length of fibre.
 Functions are listed below with brief descriptions. Each function is fully documented in the .m files. See the examples for use of the various function.
